@@ -1,14 +1,14 @@
-# ðŸ”§ Product Support Portal
+#  Product Support Portal
 
 «An AI-powered diagnostic support platform that helps users troubleshoot product issues through guided investigation, just like a real technician or support engineer.»
 
-📌 Problem Statement
+## 📌 Problem Statement
 
 Build a platform where companies can list their products and users can quickly find answers to product-related questions and issues.
 
 Unlike traditional chatbots or search engines, the assistant should diagnose problems through investigation, elimination, and reasoning using trusted manufacturer documentation and support materials.
 
-🚀 Our Solution
+## 🚀 Our Solution
 
 Product Support Portal is an intelligent support platform that combines product information with an AI-powered Diagnostic Assistant.
 
@@ -18,15 +18,15 @@ This creates a more realistic troubleshooting experience and helps users underst
 
 ---
 
-✨ Key Features
+ ## ✨Features
 
-🛍 Product Marketplace
+## 🛍 Product Marketplace
 
 - Browse available products
 - View product information and details
 - Product-specific support experience
 
-🤖 AI Diagnostic Assistant
+## 🤖 AI Diagnostic Assistant
 
 - Technician-style conversations
 - Step-by-step issue investigation
@@ -34,7 +34,7 @@ This creates a more realistic troubleshooting experience and helps users underst
 - Guided troubleshooting process
 - Solution recommendations
 
-📊 Diagnostic Workflow
+## 📊 Diagnostic Workflow
 
 - Issue identification
 - Symptom analysis
@@ -42,7 +42,7 @@ This creates a more realistic troubleshooting experience and helps users underst
 - Root cause detection
 - Resolution guidance
 
-💾 User Experience
+## 💾 User Experience
 
 - Conversation history storage
 - Multi-product support
@@ -51,7 +51,7 @@ This creates a more realistic troubleshooting experience and helps users underst
 
 ---
 
-🔍 How It Works
+## 🔍 How It Works
 
 1. User selects a product.
 2. User describes the issue.
@@ -63,7 +63,7 @@ This creates a more realistic troubleshooting experience and helps users underst
 
 ---
 
-🤖 Example Diagnostic Flow
+## 🤖 Example Diagnostic Flow
 
 User: My AC is not cooling properly.
 
@@ -81,7 +81,7 @@ This process closely mimics how a real technician diagnoses equipment problems.
 
 ---
 
-🛠 Technology Stack
+## 🛠 Technology Stack
 
 Frontend
 
@@ -100,7 +100,7 @@ Storage
 
 ---
 
-📁 Project Structure
+## 📁 Project Structure
 
 Product-Support-Portal/
 │
@@ -114,7 +114,7 @@ Product-Support-Portal/
 
 ---
 
-⚙️ Setup Instructions
+## ⚙️ Setup Instructions
 
 Prerequisites
 
@@ -138,7 +138,7 @@ const OPENROUTER_API_KEY = "YOUR_API_KEY";
 
 ---
 
-🔑 Getting an OpenRouter API Key
+## 🔑 Getting an OpenRouter API Key
 
 1. Visit https://openrouter.ai
 2. Create a free account
@@ -147,7 +147,7 @@ const OPENROUTER_API_KEY = "YOUR_API_KEY";
 
 ---
 
-🎥 Demo Video
+## 🎥 Demo Video
 
 Demo Link:
 
@@ -155,7 +155,7 @@ https://drive.google.com/file/d/1vbR9R0ZXbW2xFGBJW7TvyG2Cu0i9cYgS/view?usp=drive
 
 ---
 
-👥 Team Information
+## 👥 Team Information
 
 Team Name
 
