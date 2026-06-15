@@ -1,74 +1,192 @@
-# 🔧 Product Support Portal
+🔧 Product Support Portal
 
-AI powered Product Support Portal that helps users diagnose 
-product issues through step by step troubleshooting instead of giving direct answers.
+«An AI-powered diagnostic support platform that helps users troubleshoot product issues through guided investigation, just like a real technician or support engineer.»
 
-## 🌟 Features
--Product Selection
--AI Diagnostic Assistant
--Root Cause Analysis
--Step by Step Troubleshooting
--Solution Recommendations
--Diagnostic Report Generation
--Conversation History Storage
--Multi Product Support
+📌 Problem Statement
 
+Build a platform where companies can list their products and users can quickly find answers to product-related questions and issues.
 
-### For Users
-- Browse and search products
-- View product details and documentation
-- AI Diagnostic Assistant — talks like a real technician
-- Chat history saved automatically
+Unlike traditional chatbots or search engines, the assistant should diagnose problems through investigation, elimination, and reasoning using trusted manufacturer documentation and support materials.
 
-##How It Works
-1.Select a product.
-2.Describe the issue.
-3.AI Investigates the problem step by step.
-4.Root Cause is identified.
-5.Solution is provided.
-6.Diagnostic report is generated.
+🚀 Our Solution
 
-## 🤖 AI Diagnostic Assistant
-The assistant does NOT give direct answers.
-It asks questions step by step — just like a real mechanic would — 
-and slowly diagnoses the root cause of the problem.
+Product Support Portal is an intelligent support platform that combines product information with an AI-powered Diagnostic Assistant.
 
-**Example:**
-- User: "My AC is not cooling"
-- Assistant: "Is the compressor running? Do you hear any sound when AC starts?"
+Instead of providing direct answers, the assistant behaves like a mechanic, technician, or support engineer. It asks relevant diagnostic questions, investigates symptoms, identifies possible root causes, and provides practical solutions based on the user's responses.
 
-## 🛠️ Tech Stack
-- HTML, CSS, JavaScript
-- LocalStorage for data
-- OpenRouter API (free) for AI
-- Model: OpenAI GPT-OSS-120B
+This creates a more realistic troubleshooting experience and helps users understand, maintain, and resolve product issues effectively.
 
-## 🚀 How to Run
+---
 
-1. Clone this repo
-2. Open in VS Code
-3. Add your OpenRouter API key in `assistant.html`:
-```javascript
-   const OPENROUTER_API_KEY = "your-key-here";
-```
-4. Run with Live Server
+✨ Key Features
 
-## 🔑 Get Free API Key
-1. Go to openrouter.ai
-2. Sign up for free
-3. Create API key
-4. Use any free model
+🛍 Product Marketplace
 
-##Future Enhancements
--Repair Cost Estimator
--PDF Report Download
--Admin Dashboard
--User Authenication
--Analytics Dashboard
+- Browse available products
+- View product information and details
+- Product-specific support experience
 
-## 📁 Project Structure
-|-index.html #Product Marketplace
-|-product.html #Product detail page
-|-assistant.html #AI Diagnostic Assistant
-|-style.css #Styling
-|-script.js #JavaScript logic
+🤖 AI Diagnostic Assistant
+
+- Technician-style conversations
+- Step-by-step issue investigation
+- Root cause analysis
+- Guided troubleshooting process
+- Solution recommendations
+
+📊 Diagnostic Workflow
+
+- Issue identification
+- Symptom analysis
+- Diagnostic questioning
+- Root cause detection
+- Resolution guidance
+
+💾 User Experience
+
+- Conversation history storage
+- Multi-product support
+- Responsive user interface
+- Easy product navigation
+
+---
+
+🔍 How It Works
+
+1. User selects a product.
+2. User describes the issue.
+3. AI assistant begins investigation.
+4. Assistant asks diagnostic questions.
+5. Possible root causes are analyzed.
+6. Solution recommendations are generated.
+7. User receives a complete troubleshooting report.
+
+---
+
+🤖 Example Diagnostic Flow
+
+User: My AC is not cooling properly.
+
+Assistant: Is the compressor running? Do you hear any sound when the AC starts?
+
+User: Yes, the compressor starts.
+
+Assistant: Are the air filters clean or blocked?
+
+User: They appear dirty.
+
+Assistant: The reduced cooling performance may be caused by restricted airflow due to clogged filters. Cleaning or replacing the filters is recommended.
+
+This process closely mimics how a real technician diagnoses equipment problems.
+
+---
+
+🛠 Technology Stack
+
+Frontend
+
+- HTML5
+- CSS3
+- JavaScript
+
+AI Integration
+
+- OpenRouter API
+- OpenAI GPT-OSS-120B
+
+Storage
+
+- Browser LocalStorage
+
+---
+
+📁 Project Structure
+
+Product-Support-Portal/
+│
+├── index.html          # Product Marketplace
+├── product.html        # Product Details Page
+├── assistant.html      # AI Diagnostic Assistant
+├── script.js           # Application Logic
+├── data.js             # Product Data
+├── style.css           # Styling
+└── README.md
+
+---
+
+⚙️ Setup Instructions
+
+Prerequisites
+
+- Modern Web Browser
+- VS Code (Recommended)
+- OpenRouter API Key
+
+Installation
+
+1. Clone the repository
+
+git clone https://github.com/ameymahajan137/Mantis.git
+
+2. Open the project in VS Code
+
+3. Add your OpenRouter API key inside:
+
+const OPENROUTER_API_KEY = "YOUR_API_KEY";
+
+4. Launch using Live Server
+
+---
+
+🔑 Getting an OpenRouter API Key
+
+1. Visit https://openrouter.ai
+2. Create a free account
+3. Generate an API key
+4. Paste the key into "assistant.html"
+
+---
+
+🎥 Demo Video
+
+Demo Link:
+
+https://drive.google.com/file/d/1vbR9R0ZXbW2xFGBJW7TvyG2Cu0i9cYgS/view?usp=drivesdk
+
+---
+
+👥 Team Information
+
+Team Name
+
+Apex
+
+Team Members
+
+1. Amey Mahajan
+2. Kanika Verma
+
+---
+
+🎯 Future Enhancements
+
+- Repair Cost Estimator
+- PDF Diagnostic Report Export
+- User Authentication System
+- Admin Dashboard
+- Analytics Dashboard
+- Product Documentation Upload System
+- Multi-language Support
+- Voice-based Diagnostic Assistant
+
+---
+
+🌟 Impact
+
+The Product Support Portal transforms traditional product support by enabling users to troubleshoot issues intelligently instead of searching through large documentation files. The platform improves user experience, reduces support workload, and provides faster issue resolution through AI-driven diagnostics.
+
+---
+
+📄 License
+
+This project was developed as part of MOSS Hack 2026.
