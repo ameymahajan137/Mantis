@@ -1,4 +1,4 @@
-#🔧 Product Support Portal
+# ðŸ”§ Product Support Portal
 
 «An AI-powered diagnostic support platform that helps users troubleshoot product issues through guided investigation, just like a real technician or support engineer.»
 
